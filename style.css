@@ -1,0 +1,49 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+background-color: snow;
+  color: black;
+  text-align: center;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif;
+  font-style: bold;
+  color: black;
+}
+
+button {
+  padding: 20px;
+  border-radius: 50px;
+  font-size: 18px
+}
+
+#gameButtonArea > button {
+  width:250px;
+  height:250px;
+  margin:2px;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {background: lightgreen;}
+#button2 {background: lightblue;}
+#button3 {background: pink;}
+#button4 {background: lightyellow;}
+#button5 {background: azure;}
+#button6 {background: lightsteelblue}
+#button7 {background: silver}
+#button8 {background: seashell}
+
+#button1:active, #button1.lit {background: green;}
+#button2:active, #button2.lit {background: blue;}
+#button3:active, #button3.lit {background: red;}
+#button4:active, #button4.lit {background: yellow;}
+#button5:active, #button5.lit {background: aqua}
+#button6:active, #button6.lit {background: lightskyblue}
+#button7:active, #button7.lit {background: black}
+#button8:active, #button8.lit {background: sandybrown}
